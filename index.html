@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Component -->
+    <header>
+        <h1>DAILY NEWS</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#headlines">Headlines</a>
+            <a href="#sports">Sports</a>
+            <a href="#footer">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Headlines Component -->
+    <section id="headlines" class="headlines">
+        <h2>Latest Headlines</h2>
+
+        <div class="news-container">
+            <div class="news-card">
+                <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500" alt="News">
+                <h3>Latest Breaking News</h3>
+                <p>Stay updated with the latest news and important events around the world.</p>
+                <button onclick="readMore('Breaking News')">Read More</button>
+            </div>
+
+            <div class="news-card">
+                <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=500" alt="Newspaper">
+                <h3>Today's Top Stories</h3>
+                <p>Get the latest updates on politics, business, technology and society.</p>
+                <button onclick="readMore('Top Stories')">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sports Component -->
+    <section id="sports" class="sports">
+        <h2>Sports News</h2>
+
+        <div class="news-container">
+            <div class="news-card">
+                <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500" alt="Sports">
+                <h3>Cricket Updates</h3>
+                <p>Get the latest cricket scores, match results and player updates.</p>
+                <button onclick="readMore('Cricket Updates')">Read More</button>
+            </div>
+
+            <div class="news-card">
+                <img src="https://images.unsplash.com/photo-1508098682722-e99c643e7f0b?w=500" alt="Football">
+                <h3>Football News</h3>
+                <p>Follow football matches, tournaments and team performances.</p>
+                <button onclick="readMore('Football News')">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Component -->
+    <footer id="footer">
+        <h2>Daily News</h2>
+        <p>Your trusted source for daily updates.</p>
+        <p>Contact: dailynews@gmail.com</p>
+        <p>© 2026 Daily News. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
